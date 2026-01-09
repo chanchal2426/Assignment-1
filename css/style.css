@@ -34,6 +34,7 @@
     cursor: pointer;
     text-decoration: none;
     gap: 32px;
+    opacity: 0.9;
 }
 
 .header-content ul li a:hover {
@@ -55,4 +56,96 @@
 
 .header-content .btn:hover {
     background-color: #367b4f;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../assets/hero-bg.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.hero-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 120px;
+    width: 100%;
+    max-width: 2024px;
+}
+
+.hero-section .hero-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1360px;
+    justify-content: center;
+    margin: auto;
+}
+
+.hero-section .hero-text h3 {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    gap: 6px;
+    font-weight: 500;
+    color: #469165;
+    background-color: #FFFFFF;
+    border-radius: 1000px;
+    padding: 8px 12px;
+    margin-bottom: 24px;
+}
+
+.hero-section .hero-text h1 {
+    font-size: 72px;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+    opacity: 90%;
+    width: 770px;
+    height: 168px;
+}
+
+.hero-section .hero-text h1 span {
+    color: #30B868;
+}
+
+.hero .hero-section .btn {
+    display: flex;
+    margin-top: 32px;
+    width: 465px;
+}
+
+.hero .hero-section .btn .btn-1 {
+    border: none;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    background-color: #469165;
+    gap: 10px;
+    padding: 12px 16px;
+    border-radius: 4px;
+}
+
+.hero .hero-section .btn .btn-2 {
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    border: 1px solid #FFFFFF;
+    stroke: #FFFFFF;
+    color: #FFFFFF;
+    margin-left: 16px;
+    gap: 10px;
+    padding: 12px 16px;
+    border-radius: 4px;
+}
+
+.hero .hero-section .btn .btn-1:hover {
+    background-color: #f1f1f1;
+}
+
+.hero .hero-section .btn .btn-2:hover {
+    background-color: #000000;
 }
