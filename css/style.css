@@ -358,6 +358,47 @@ body {
 }
 
 /* Footer CSS */
-.banner-footer p {
+footer {
+    background-color: #001931;
+}
+
+footer .main {
+    width: 71%;
+    margin: auto;
+    padding: 130px 0px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer .main .icon-container h2 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+
+footer .main .icon-container .icon {
     text-align: center;
+}
+
+footer .main .icon-container .icon i {
+    background-color: white;
+    color: black;
+    padding: 7px;
+    border-radius: 50%;
+
+}
+
+footer .hr {
+    max-width: 71%;
+    margin: auto;
+}
+
+footer .copyright {
+    max-width: 71%;
+    margin: auto;
+    text-align: center;
+    padding: 60px 0px;
+    color: white;
 }
