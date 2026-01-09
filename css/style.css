@@ -143,9 +143,12 @@
 }
 
 .hero .hero-section .btn .btn-1:hover {
-    background-color: #f1f1f1;
+    background-color: green;
+    transition-duration: 1s;
 }
 
 .hero .hero-section .btn .btn-2:hover {
-    background-color: #000000;
+    background-color: green;
+    transition-duration: 1s;
+    color: #000000;
 }
