@@ -109,6 +109,7 @@ body {
     opacity: 90%;
     width: 770px;
     height: 168px;
+    text-transform: capitalize;
 }
 
 .hero-section .hero-text h1 span {
@@ -119,6 +120,10 @@ body {
     display: flex;
     margin-top: 32px;
     width: 465px;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 16px;
+
 }
 
 .hero .hero-section .btn .btn-1 {
@@ -127,6 +132,7 @@ body {
     display: flex;
     align-items: center;
     background-color: #469165;
+    color: #FFFFFF;
     gap: 10px;
     padding: 12px 16px;
     border-radius: 4px;
@@ -204,7 +210,6 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 16px;
     width: 322px;
     height: 300px;
 }
@@ -245,4 +250,51 @@ body {
     font-size: 16px;
     color: #627382;
     line-height: 20px;
+}
+
+/* Section-2 Css */
+
+.section-2 .banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 120px;
+    gap: 60px;
+}
+
+
+.section-2 .banner .content h3 {
+    color: #30B868;
+    font-weight: 500;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.section-2 .banner .content h1 {
+    font-size: 48px;
+    text-transform: capitalize;
+    font-weight: 700px;
+    line-height: 58px;
+    width: 700px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.section-2 .banner .content p {
+    width: 700px;
+    font-size: 16px;
+    font-weight: 400px;
+    color: #627382;
+    margin-bottom: 40px;
+}
+
+.section-2 .banner .content ul {
+    list-style: none;
+}
+
+.section-2 .banner .content>ul>li {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-bottom: 16px;
 }
