@@ -1,9 +1,12 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    font-family: Inter;
+
     /* max-width: 1600px; */
+}
+
+body {
+    font-family: 'Inter', sans-serif;
 }
 
 .header-content {
@@ -127,6 +130,7 @@
     gap: 10px;
     padding: 12px 16px;
     border-radius: 4px;
+    font-weight: 600;
 }
 
 .hero .hero-section .btn .btn-2 {
@@ -137,6 +141,7 @@
     stroke: #FFFFFF;
     color: #FFFFFF;
     margin-left: 16px;
+    font-weight: 600;
     gap: 10px;
     padding: 12px 16px;
     border-radius: 4px;
@@ -151,4 +156,93 @@
     background-color: green;
     transition-duration: 1s;
     color: #000000;
+}
+
+.hero .hero-section .hero-text p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #FFFFFF;
+    line-height: 24px;
+    width: 63%;
+    margin: auto;
+    text-align: center;
+}
+
+.section-1 {
+    width: 71%;
+    margin: auto;
+    margin-top: 130px;
+    text-align: center;
+}
+
+.section-1 .text h1 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+.section-1 .text p {
+    font-size: 16px;
+    color: #627382;
+    line-height: 20px;
+}
+
+.section-1 .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 80px;
+    gap: 24px;
+    text-align: center;
+}
+
+.section-1 .container .card {
+    padding: 24px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    width: 322px;
+    height: 300px;
+}
+
+.section-1 .container .card:hover {
+    box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.2);
+    transform: translateY(-4px);
+    transition-duration: 0.3s;
+}
+
+.section-1 .container .card .icon-background {
+    width: 60px;
+    height: 60px;
+    background-color: #F95555;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.section-1 .container .card img {
+    margin-bottom: auto;
+    margin: auto;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+
+}
+
+.section-1 .container .card h4 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+
+.section-1 .container .card p {
+    font-size: 16px;
+    color: #627382;
+    line-height: 20px;
 }
